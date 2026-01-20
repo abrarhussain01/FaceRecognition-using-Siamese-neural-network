@@ -40,6 +40,16 @@ Each input image is passed through a CNN to generate a **feature embedding**, fo
 ![CNN Embedding Architecture](images/cnn_embedding_architecture.png)
 
 ---
+## 📐 Model Summary
+The following diagram shows the **final Siamese model architecture**, including:
+- Dual input layers
+- Shared embedding network
+- Custom L1 distance layer
+- Binary classification output
+
+![Model Summary](images/model_summary.png)
+
+---
 
 ## 🔬 Model Details
 - **Input size:** 100 × 100 × 3 (RGB)
