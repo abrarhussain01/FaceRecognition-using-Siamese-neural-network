@@ -16,14 +16,6 @@ This is a **one-shot / few-shot learning** problem.
 
 ---
 
-## 🧩 Why Siamese Neural Networks?
-- Face verification is a **similarity learning** task
-- Siamese networks learn **embeddings**, not class labels
-- Works well for **unseen identities**
-- Commonly used in biometric security systems
-
----
-
 ## 🏗️ Siamese Network Architecture
 
 ### 🔹 High-Level Siamese Architecture
@@ -78,28 +70,11 @@ Used metrics:
 
 ---
 
-## ⚠️ Results & Observations
-- Model trained on **CPU-only environment**
-- Limited epochs due to hardware constraints
-- Accuracy appears low because Siamese networks require **threshold tuning**
-- Embedding quality improves gradually with training
-
----
-
 ## 🚧 Limitations
 - No GPU acceleration
 - Training from scratch without pre-trained embeddings
 - Limited epochs
 - Threshold not extensively tuned
-
----
-
-## 🚀 Future Improvements
-- Use pre-trained models like **FaceNet / ArcFace**
-- Train on GPU (Google Colab)
-- Normalize embeddings before comparison
-- Tune similarity threshold using ROC curves
-- Reduce embedding dimensionality
 
 ---
 
@@ -119,13 +94,6 @@ Koch, Zemel, Salakhutdinov
 - NumPy
 - Matplotlib
 - Jupyter Notebook
-
----
-
-## 👤 Author
-**Mohammed Abraar Hussain**  
-Computer Science Engineer  
-Passionate about Machine Learning, Deep Learning & AI
 
 ---
 
